@@ -9,7 +9,7 @@ public class MainCodingChallenge {
             new User("Mary", "Keit", 35)
     );
 
-    static String nameForOtpional = "test";
+    static String nameForOptional = "test";
 
     public static void main(String[] args) throws Exception {
 
