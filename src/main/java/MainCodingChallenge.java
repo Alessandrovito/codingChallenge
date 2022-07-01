@@ -18,10 +18,9 @@ public class MainCodingChallenge {
 
     }
 
-
     public void startTest() {
 
-        useOptional(nameForOtpional);
+        useOptional(nameForOptional);
         useOptional(null);
         useStream(users);
         useStream(null);
