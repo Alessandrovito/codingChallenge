@@ -1,6 +1,5 @@
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -24,6 +23,6 @@ public class TestCodingChallenge {
         assertThat(res).isEqualTo(-1);
     }
 
-    //Write a test to test option should return lenght of the string
+    //Write a test to test for method "useOptional" should return length of the string "Hello"
 
 }

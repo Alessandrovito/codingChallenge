@@ -16,33 +16,32 @@ public class MainCodingChallenge {
         MainCodingChallenge mainCodingChallenge = new MainCodingChallenge();
         mainCodingChallenge.startTest();
 
-
     }
 
 
     public void startTest() {
 
         useOptional(nameForOtpional);
+        useOptional(null);
         useStream(users);
-        useCompletableFuture();
+        useStream(null);
+        useCompletableFuture(5,6);
     }
 
     //
     public Integer useOptional(String value) {
-        //Create a Optionl empty and assign the value  passed to the function and return the lenght of the String. In case is null print the default value -1
+        //Create a Optional and assign the value passed to the function and return the length of the String. In case is null the value return  as a default value -1
         return -1;
     }
 
     public List<String> useStream(List<User> users) {
-
-        //Fromt this list, filter by age under < 40  and return a list of name
+        //From this list of User entity, filter by age under < 40 and return a list of name
         return null;
-
     }
 
-    public Integer useCompletableFuture(){
-        // create an executor of a pool pf fxed 5 threads
-        //run the a supplier task to invoke the method addFun1 passing 5 and 6
+    public Integer useCompletableFuture(int a, int b){
+        // create an executor of a fixed  5 threads pool
+        //run the supplier task to invoke the method addFun1 passing 5 and 6
         // wait until to receive the response
         return -1;
     }
