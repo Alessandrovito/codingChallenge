@@ -9,20 +9,17 @@ public class TestCodingChallenge {
     MainCodingChallenge mainCodingChallenge = new MainCodingChallenge();
 
     @Test
-    public void streamShouldReturnListOfnameWhenAgeLessThen40() {
-
-
+    public void streamShouldReturnListOfNameWhenAgeLessThan40() {
         final List<String> names = mainCodingChallenge.useStream(MainCodingChallenge.users);
         assertThat(names).isNotNull();
     }
 
     @Test
     public void optionalShouldReturnNegativeInCaseStringIsNull() {
-
         final Integer res = mainCodingChallenge.useOptional(null);
         assertThat(res).isEqualTo(-1);
     }
 
-    //Write a test to test for method "useOptional" should return length of the string "Hello"
+    // TODO: Write a test for method 'useOptional' where the parameter is 'hello'
 
 }
